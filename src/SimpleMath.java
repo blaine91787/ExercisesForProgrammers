@@ -1,3 +1,16 @@
+/*******************************************************************************
+**
+**
+**              Name: Blaine Harris
+**              Project: ExercisesForProgrammers
+**              File: SimpleMath.java
+**              Date: 08/01/16
+**              Language: java
+**
+**
+**
+/******************************************************************************/
+
 public class SimpleMath {
 
   public void simpleMath () {

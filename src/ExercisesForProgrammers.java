@@ -3,6 +3,7 @@
 **
 **              Name: Blaine Harris
 **              Project: ExercisesForProgrammers
+**              File: ExercisesForProgrammers.java
 **              Date: 08/01/16
 **              Language: java
 **
@@ -39,14 +40,15 @@ public class ExercisesForProgrammers {
                           + "[3] Printing Quotes\n"
                           + "[4] Mad Lib\n"
                           + "[5] Simple Math\n"
-                          + "[6] Retirement Calculator");
+                          + "[6] Retirement Calculator\n"
+                          + "[7] Area of a Rectangular Room\n");
 
       nextIntStr = keyboard.getInput();
       choice = Integer.parseInt(nextIntStr);
 
       //Switch determines the program to run based on the user's choice.
       switch(choice) {
-                        
+
                         case 1:
                           SayingHello sh = new SayingHello();
                           sh.sayingHello();
@@ -70,6 +72,10 @@ public class ExercisesForProgrammers {
                         case 6:
                           RetirementCalculator rc = new RetirementCalculator();
                           rc.retirementCalculator();
+                          break;
+                        case 7:
+                          AreaOfARectangularRoom aoarc = new AreaOfARectangularRoom();
+                          aoarc.getArea();
                           break;
       }
 
