@@ -20,7 +20,7 @@ public class RetirementCalculator {
   }
 
   private int yearsUntilRetirement(int x, int y){
-    return x-y;
+    return Math.abs(x-y);
   }
 
   private int yearToRetire(int x, int y){
