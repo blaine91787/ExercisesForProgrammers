@@ -41,7 +41,9 @@ public class ExercisesForProgrammers {
                           + "[4] Mad Lib\n"
                           + "[5] Simple Math\n"
                           + "[6] Retirement Calculator\n"
-                          + "[7] Area of a Rectangular Room\n");
+                          + "[7] Area of a Rectangular Room\n"
+                          + "[8] Pizza Party\n"
+                          + "[9] Paint Calculator\n");
 
       nextIntStr = keyboard.getInput();
       choice = Integer.parseInt(nextIntStr);
@@ -76,6 +78,14 @@ public class ExercisesForProgrammers {
                         case 7:
                           AreaOfARectangularRoom aoarc = new AreaOfARectangularRoom();
                           aoarc.getArea();
+                          break;
+                        case 8:
+                          PizzaParty pp = new PizzaParty();
+                          pp.pizzaParty();
+                          break;
+                        case 9:
+                          PaintCalculator pc = new PaintCalculator();
+                          pc.paintCalculator();
                           break;
       }
 
