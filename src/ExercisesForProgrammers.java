@@ -11,8 +11,6 @@
 **
 /******************************************************************************/
 
-import java.util.Scanner;
-
 
 /**
  *ExercisesForProgrammers.java is the main entry point for the program. The user
